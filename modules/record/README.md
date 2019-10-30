@@ -28,8 +28,8 @@ module "cname_record" {
 
 ## Variables
 
-  **cloudflare_zone**
-      (Required) The DNS zone to add the record to.
+  **zone_id**
+      (Required) The DNS zone ID to add the record to.
 
   **name**
       (Required) The name of the record.
@@ -47,7 +47,7 @@ module "cname_record" {
       (Optional) The TTL of the record (automatic: '1').
 
   **priority**
-      (Optional) The priority of the record.
+      (Optional) The priority of the record. Default is 0.
 
   **proxied**
       (Optional) Whether the record gets Cloudflare's origin protection; defaults to false.

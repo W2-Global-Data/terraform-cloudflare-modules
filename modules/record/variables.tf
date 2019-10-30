@@ -22,6 +22,7 @@
 
   variable "priority" {
       description = "(Optional) The priority of the record."
+      default = 0
   }
 
   variable "proxied" {

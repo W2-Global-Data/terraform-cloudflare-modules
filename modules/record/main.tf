@@ -3,7 +3,7 @@ resource "cloudflare_record" "record" {
   name     = "${var.name}"
   type     = "${var.type}"
   value    = "${var.value}"
-  data     = "${var.data}"
+  #data     = "${var.data}"
   ttl      = "${var.ttl}"
   priority = "${var.priority}"
   proxied  = "${var.proxied}"

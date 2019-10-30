@@ -1,5 +1,5 @@
 resource "cloudflare_record" "record" {
-  domain   = "${var.cloudflare_zone}"
+  domain   = "${var.zone_id}"
   name     = "${var.name}"
   type     = "${var.type}"
   value    = "${var.value}"

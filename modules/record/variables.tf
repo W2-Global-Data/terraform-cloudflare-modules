@@ -1,5 +1,5 @@
-  variable "cloudflare_zone" {
-      description = "(Required) The DNS zone to add the record to."
+  variable "zone_id" {
+      description = "(Required) The DNS zone id to add the record to."
   }
   variable "name" {
       description = "(Required) The name of the record."
